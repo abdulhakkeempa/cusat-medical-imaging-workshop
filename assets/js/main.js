@@ -4,12 +4,24 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+
+window.setInterval(function(){    
+  window.setTimeout(function(){
+      $('#hero').css('background','url(https://blog.keosys.com/hubfs/shutterstock_696840955.jpg) no-repeat top center');
+      // console.log('Hello World 2');
+  },3000);
+   $('#hero').css('background','url(https://emerj.com/wp-content/uploads/2018/10/radiology-2.jpg) no-repeat top center');
+  //  console.log('Image Changed');
+},5000);
+
 (function() {
   "use strict";
 
   /**
-   * Easy selector helper function
+   * Easy selector 
+   *helper function
    */
+
   const select = (el, all = false) => {
     el = el.trim()
     if (all) {
