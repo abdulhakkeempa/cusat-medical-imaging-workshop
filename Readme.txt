@@ -1,1 +1,1 @@
-URL : https://abdulhakkeempa.me/dcs-workshop-template
+URL : https://abdulhakkeempa.me/cusat-medical-imaging-workshop
