@@ -5,14 +5,41 @@
 * License: https://bootstrapmade.com/license/
 */
 
-window.setInterval(function(){    
-  window.setTimeout(function(){
-      $('#hero').css('background','url(https://blog.keosys.com/hubfs/shutterstock_696840955.jpg) no-repeat top center');
-      // console.log('Hello World 2');
-  },3000);
-   $('#hero').css('background','url(https://emerj.com/wp-content/uploads/2018/10/radiology-2.jpg) no-repeat top center');
-  //  console.log('Image Changed');
-},5000);
+// window.setInterval(function(){    
+//   window.setTimeout(function(){
+//       $('#hero').css('background','url(https://blog.keosys.com/hubfs/shutterstock_696840955.jpg) no-repeat top center');
+//       // console.log('Hello World 2');
+//   },3000);
+//    $('#hero').css('background','url(https://emerj.com/wp-content/uploads/2018/10/radiology-2.jpg) no-repeat top center');
+//   //  console.log('Image Changed');
+// },5000);
+
+
+var img = new Array(
+    'https://healthitanalytics.com/images/site/article_headers/_normal/ThinkstockPhotos-513688464.jpg',
+    'https://www.postdicom.com/images/blog-posts/social-media-images/handling-dicom-medical-imaging-data-social.png',
+    'https://blog.keosys.com/hubfs/shutterstock_696840955.jpg',
+    'https://emerj.com/wp-content/uploads/2018/10/radiology-2.jpg',
+    "https://qtxasset.com/quartz/qcloud5/media/image/GettyImages-1292254104.jpg?VersionId=T4G6QPwdBA3AA5gTMTVbdW2EEaEFcOwP",
+)
+
+var prev = null;
+
+function changeBg() {
+  var imgUrl = img[Math.floor(Math.random()*img.length)];
+  while (imgUrl == prev) {
+    imgUrl = img[Math.floor(Math.random()*img.length)];
+  }
+  $('#hero').css('background', 'url(' + imgUrl + ')');
+  $('#hero').fadeIn(500);
+  prev = imgUrl
+}
+
+function changeBackgroundSmoothly() {
+  $('#hero').fadeOut(1000, changeBg);
+}
+
+setInterval(changeBackgroundSmoothly,7000);
 
 (function() {
   "use strict";
