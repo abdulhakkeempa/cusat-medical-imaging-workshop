@@ -662,7 +662,8 @@ h6 {
 }
 
 #hero .register-btn:hover{
-  background: none;
+  background: #cc1839;
+  border: 2px solid #cc1839;
   color: #fff;  
 }
 
