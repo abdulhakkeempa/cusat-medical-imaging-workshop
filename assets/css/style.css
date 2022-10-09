@@ -783,6 +783,15 @@ h6 {
   font-style: italic;
 }
 
+#speakers .about p{
+  text-align: justify !important;
+  text-align: center;
+  padding: 0;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 50px;
+  color: #0e1b4d;
+}
 #speakers .speaker .details .social {
   height: 40px;
 }
