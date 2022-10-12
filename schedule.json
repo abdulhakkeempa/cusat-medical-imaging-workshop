@@ -16,5 +16,77 @@
             "time":"3:00 PM",
              "title":"Tutorials"
         }
+    ],
+    "Day-2": [
+        {
+            "time":"10:30 AM",
+             "title":"Inaugration"
+        },
+        {
+            "time":"12:00 PM",
+             "title":"Key Note - I"
+        },
+        {
+            "time":"1:30 PM",
+             "title":"Networking Lunch"
+        },
+        {
+            "time":"3:00 PM",
+             "title":"Tutorials"
+        }
+    ],
+    "Day-3": [
+        {
+            "time":"10:30 AM",
+             "title":"Inaugration"
+        },
+        {
+            "time":"12:00 PM",
+             "title":"Key Note - I"
+        },
+        {
+            "time":"1:30 PM",
+             "title":"Networking Lunch"
+        },
+        {
+            "time":"3:00 PM",
+             "title":"Tutorials"
+        }
+    ],
+    "Day-4": [
+        {
+            "time":"10:30 AM",
+             "title":"Inaugration"
+        },
+        {
+            "time":"12:00 PM",
+             "title":"Key Note - I"
+        },
+        {
+            "time":"1:30 PM",
+             "title":"Networking Lunch"
+        },
+        {
+            "time":"3:00 PM",
+             "title":"Tutorials"
+        }
+    ],
+    "Day-5": [
+        {
+            "time":"10:30 AM",
+             "title":"Inaugration"
+        },
+        {
+            "time":"12:00 PM",
+             "title":"Key Note - I"
+        },
+        {
+            "time":"1:30 PM",
+             "title":"Networking Lunch"
+        },
+        {
+            "time":"3:00 PM",
+             "title":"Tutorials"
+        }
     ]
 }
