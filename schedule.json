@@ -1,0 +1,20 @@
+{
+    "Day-1": [
+        {
+            "time":"10:30 AM",
+             "title":"Inaugration"
+        },
+        {
+            "time":"12:00 PM",
+             "title":"Key Note - I"
+        },
+        {
+            "time":"1:30 PM",
+             "title":"Networking Lunch"
+        },
+        {
+            "time":"3:00 PM",
+             "title":"Tutorials"
+        }
+    ]
+}
