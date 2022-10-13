@@ -1,23 +1,23 @@
 {
-    "Day-1": [
+    "one": [
         {
             "time":"10:30 AM",
-             "title":"Inaugration"
+            "title":"Inaugration"
         },
         {
             "time":"12:00 PM",
-             "title":"Key Note - I"
+            "title":"Key Note - I"
         },
         {
             "time":"1:30 PM",
-             "title":"Networking Lunch"
+            "title":"Networking Lunch"
         },
         {
             "time":"3:00 PM",
-             "title":"Tutorials"
+            "title":"Tutorials"
         }
     ],
-    "Day-2": [
+    "two": [
         {
             "time":"10:30 AM",
              "title":"Key Note - II"
@@ -39,7 +39,7 @@
              "title":"Cultural Program and Networking Dinner"
         }
     ],
-    "Day-3": [
+    "three": [
         {
             "time":"10:30 AM",
              "title":"Key Note - III"
@@ -61,7 +61,7 @@
              "title":"Local Tour"
         }
     ],
-    "Day-4": [
+    "four": [
         {
             "time":"10:30 AM",
              "title":"Key Note - IV"
@@ -79,7 +79,7 @@
              "title":"Tutorials"
         }
     ],
-    "Day-5": [
+    "five": [
         {
             "time":"10:30 AM",
              "title":"Key Note - V"

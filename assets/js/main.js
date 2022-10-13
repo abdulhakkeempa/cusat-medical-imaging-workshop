@@ -14,7 +14,6 @@
 //   //  console.log('Image Changed');
 // },5000);
 
-
 var img = new Array(
     'https://healthitanalytics.com/images/site/article_headers/_normal/ThinkstockPhotos-513688464.jpg',
     'https://www.postdicom.com/images/blog-posts/social-media-images/handling-dicom-medical-imaging-data-social.png',
