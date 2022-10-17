@@ -474,6 +474,15 @@ h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
+@media (max-width: 767px) {
+  .img-logo {
+    width: 7rem !important;
+  }
+  .cusat-logo{
+    width: 45px !important;
+  }
+}
+
 #hero {
   width: 100% !important;
   height: 100vh !important;
